@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tuionf.xmlylearn.AlbumFragment">
+
+    <LinearLayout
+        android:id="@+id/intro_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  这里是简介" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/change_order_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/change_order"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/ic_launcher_round"/>
+
+    </LinearLayout>
+
+    <ListView
+
+        android:id="@+id/album_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
