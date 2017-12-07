@@ -6,7 +6,8 @@
 
 ## 效果Gif图
 
-https://github.com/tuionf/XMLYLearn/blob/master/git1.gif
+![效果Gif图](https://github.com/tuionf/XMLYLearn/blob/master/git1.gif)
+
 
 
 
